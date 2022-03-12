@@ -22,7 +22,7 @@ data1<-read.csv("https://raw.githubusercontent.com/Renkzzz/RepData_PeerAssessmen
 ```
 
 Change variable "date" class from character to date,
-quiely=T means no message confirming package loading is printed:
+quietly=T means no message confirming package loading is printed:
 
 ```r
 library(lubridate, quietly = T)
@@ -295,7 +295,7 @@ mean(daily_sum2$daily_steps)
 ```
 
 ```
-## [1] 10907.25
+## [1] 10708.48
 ```
 
 ```r
@@ -303,7 +303,7 @@ median(daily_sum2$daily_steps)
 ```
 
 ```
-## [1] 11162
+## [1] 10600
 ```
 
 
